@@ -1,0 +1,47 @@
+0.  number of colors supported:
+    BMP = 32 bits
+    GIF = 8 bits
+    JPEG = 24 bits
+    PNG = 24 bits
+
+1.  GIF
+
+2.  lossy compression causes some data in the file to be lost during compression.
+    lossless compression allows the compression of a file to not lose data.
+
+3.  JPEG
+
+4.  The information in the address is erased but the file itself remains on the hardrive.
+
+5.  Need to implement a secure 'delete' option that actually replaces every addressable block with 0's.
+
+6.  stdint.h is a header file that declares sets of integer types having a specified widths.
+
+7.  uint8_t, uint32_t, int32_t, and uint16_t are all exact-width integer types that states an integer as an
+    exact number of bytes.
+
+8.  Number of bytes:
+    BYTE = 1 
+    DWORD = 4
+    LONG = 4
+    WORD = 2
+    
+9.  The first two bytes for a BMP file must be ASCII values 'B' and 'M'
+
+10. bfSize will describe the file's size in bytes.
+    biSize will describe the size of the structure in bytes
+
+11. If biHeight is negative, the bitmap is a top-down DIB with the origin at the upper left corner
+
+12. biBitCount specififes the number of bits per pizel. This value is the implied bit depth of the uncompressed image
+
+13. fopen could return NULL if there is no memory avaiable for the file 
+
+14. The fread is always set to one because it reads through the file 1 btye at a time
+
+15. padding = 12 bytes
+
+16. fseek sets up the file position indicator.
+
+17. 
+18. cs50 TA holding a cat-like object. I'm guessing the cat dunit
